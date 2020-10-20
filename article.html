@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Maquetacion para Vue</title>
+        <!-- Carga de CSS-->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+      
+    </head>
+    <body>
+        <!-- Seccion de la Cabezera de la Pagina-->
+        <header id="header">
+            <div class="center">
+                <!-- Creacion del Logo -->
+                <div id="logo">
+                    <img src="assets/img/Vue.png" class="app-logo" alt="Logotipo"/>
+                    <span id="brand">
+                        <strong>Master</strong>Vue
+                    </span>
+                </div>
+                <!-- Creacion del Menu -->
+                <nav id="menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="Formulario.html">Formulario</a>
+                        </li>
+                        <li>
+                            <a href="#">Contacto</a>
+                        </li>
+                        <li>
+                            <a href="#">Acerca</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Depuracion del Float-->
+                <div class="clearfix"></div>
+            </div>
+        </header>
+        <div class="center">
+            <section id="content">
+                <h2>Ultimos Articulos</h2>
+                <div id="articles">
+                    <article class="article-item article-detail">
+                        <div class="image-wrap">
+                            <img src="assets/img/Vueg.png" alt="Vuejs"/>
+                        </div>
+                        <h1>Reseñas de Vue</h1>
+                        <span class="date">Hace 5 minutos</span>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus tristique magna, ut sollicitudin justo ornare vel. Etiam congue augue sem, at gravida lorem imperdiet ut. Integer ut lacinia ligula. Curabitur non lacinia erat, non porta urna. Nullam non lacus non sem tempus consequat at vel tellus. Vestibulum posuere metus eu posuere egestas. Praesent dictum aliquam ante sed facilisis.
+                        </p>
+                        <p>
+                            Quisque vehicula facilisis congue. Vestibulum vitae pretium neque, eu pellentesque ex. Donec a tortor dui. Nam a ultricies eros. Vivamus consectetur nisl tellus, quis ultrices nisl ultricies eu. Ut condimentum ipsum ac nisi rutrum, eget blandit ipsum pharetra. Sed porta dignissim tortor, et tristique nunc dapibus vitae. Aenean vitae posuere augue. Cras tempus est vel volutpat dictum. Phasellus id nunc varius arcu tincidunt venenatis. Maecenas vestibulum vehicula ante, rhoncus pellentesque ante vulputate vel. Nullam rutrum vel odio in dictum.
+                        </p>
+                        <p>
+                            Phasellus quis purus tellus. Quisque a commodo purus. Etiam mollis, dolor a ullamcorper tempus, mi lacus consectetur neque, maximus vestibulum urna nibh sed nibh. Cras venenatis diam odio, ac euismod lorem facilisis quis. Praesent ut lectus posuere, sodales tellus at, vehicula augue. Phasellus consectetur facilisis luctus. Sed imperdiet metus ut diam rhoncus, vel blandit turpis tincidunt. Donec vel dolor in neque imperdiet lacinia. Aliquam sagittis dolor quis magna sagittis ultrices. In non augue ex. Duis condimentum, nisi vel accumsan ultricies, elit orci lobortis tellus, nec gravida velit enim ac elit. Ut eu urna non metus aliquam auctor in ut sem. Quisque felis mauris, condimentum at luctus quis, tempor sed eros. Pellentesque fringilla faucibus ligula, quis imperdiet nisl. Suspendisse ac diam aliquam, tincidunt velit ut, venenatis dui. Aenean posuere fermentum blandit.
+                        </p>
+                        <div class="clearfix"></div>
+                    </article>
+                </div>
+            </section>
+            <!-- Creacion del Sidebar-->
+            <aside id="sidebar">
+                <div id="nav-blog" class="sidebar-item">
+                    <h3>Puedes hacer esto</h3>
+                    <a href="#" class="btn btn-success">Crear Articulo</a>
+                </div>
+                <div id="search" class="sidebar-item">
+                    <h3>Buscador</h3>
+                    <p>Encuentra el articulo que buscas</p>
+                    <form>
+                        <input type="text" name="search"/>
+                        <input type="submit" name="submit" class="btn" value="Buscar"/>
+                    </form>
+                </div>
+            </aside>
+            <div class="clearfix"></div>
+        </div>
+        <!-- Seccion del pie de pagina-->
+        <footer id="footer">
+            <div class="center">
+                <p>&copy;Master en Vue con Manuel Guillen Jimenez</p>
+            </div>
+        </footer>
+    </body>
+</html>
